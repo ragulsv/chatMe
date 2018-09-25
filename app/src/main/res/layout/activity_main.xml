@@ -16,7 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_above="@+id/linearLayout"
-        android:layout_below="@+id/adView"/>
+                                            />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -34,7 +34,7 @@
             android:src="@drawable/ic_add_black_24dp"/>
 
         <EditText
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/messageEditText"
             android:layout_gravity="center_vertical"
@@ -57,4 +57,11 @@
         android:id="@+id/progressBar"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/messageTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/messageRecyclerView"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
